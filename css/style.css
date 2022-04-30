@@ -1,0 +1,1895 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --ff: 'Inter', sans-serif;
+    --hover1: #477018;
+    --hover2: #F47606;
+    --colorh: #282828;
+    --colorp: #676767;
+    --pera: #676767;
+    --transition: all linear 0.3s;
+}
+
+.fixedd {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+}
+
+.back_top {
+    position: fixed;
+    right: 40px;
+    bottom: 100px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    background: var(--hover2);
+    border-radius: 50%;
+    display: none;
+}
+
+/* +++++++++++++++++++++++++++++++++++
+             common css end
+++++++++++++++++++++++++++++++++++++++*/
+/* +++++++++++++++++++++++++++++++++++
+             topber css star
+++++++++++++++++++++++++++++++++++++++*/
+
+#topber {
+    background: var(--hover1);
+    padding: 15px 0 15px 0;
+}
+
+.topber_txt h4 {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+/* +++++++++++++++++++++++++++++++++++
+             topber css end
+++++++++++++++++++++++++++++++++++++++*/
+
+/* +++++++++++++++++++++++++++++++++++
+             nav css star
+++++++++++++++++++++++++++++++++++++++*/
+.main_manu {
+    height: 100px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 27px;
+    padding-left: 27px;
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--colorh);
+    transition: var(--transition);
+
+}
+
+.active {
+    font-family: var(--ff) !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: var(--hover1) !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: var(--hover1);
+
+}
+
+.manu_cart a {
+    margin-left: 15px;
+
+}
+
+.manu_cart a i {
+    color: var(--colorh);
+    transition: var(--transition);
+    font-size: 22px;
+}
+
+.manu_cart a i:hover {
+    color: var(--hover1);
+}
+
+
+
+/* +++++++++++++++++++++++++++++++++++
+             nav css end
+++++++++++++++++++++++++++++++++++++++*/
+/* +++++++++++++++++++++++++++++++++++
+             banner css star
+++++++++++++++++++++++++++++++++++++++*/
+#banner {
+    padding: 190px 0;
+}
+
+#banner h1 {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 65px;
+    color: var(--colorh);
+
+}
+
+#banner h1 span {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 65px;
+    color: var(--hover2);
+}
+
+#banner p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--colorp);
+    padding-right: 200px;
+    margin-top: 30px;
+}
+
+#banner a {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding: 14px 50px;
+    background: var(--hover2);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+/* +++++++++++++++++++++++++++++++++++
+             banner css end
+++++++++++++++++++++++++++++++++++++++*/
+/* +++++++++++++++++++++++++++++++++++
+             services css star
+++++++++++++++++++++++++++++++++++++++*/
+
+#services {
+    padding: 130px 0;
+}
+
+.serv_txt h4 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--colorh);
+    margin-top: 30px;
+}
+
+.serv_txt p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    margin-top: 8px;
+}
+
+/* +++++++++++++++++++++++++++++++++++
+             services css end
+++++++++++++++++++++++++++++++++++++++*/
+/* +++++++++++++++++++++++++++++++++++
+             products catagory css star
+++++++++++++++++++++++++++++++++++++++*/
+.producta_head h2 {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--colorh);
+}
+
+#services .all_products {
+    margin-top: 30px;
+}
+
+.product_all {
+    margin-top: 50px !important;
+}
+
+.pro_left_details {
+    background: #FAFAFA;
+    padding: 50px 30px;
+    border-radius: 25px;
+}
+
+.pro_left_details .left_pro_txt a {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--colorh);
+    margin-top: 10px;
+    transition: var(--transition);
+}
+
+.pro_left_details .left_pro_txt a:hover {
+    color: var(--hover2);
+}
+
+.pro_left_banner_one {
+    position: relative;
+    margin-top: 60px;
+}
+
+.pro_left_banner_one .pro_left_ban_txt {
+    position: absolute;
+    left: 30px;
+    top: 43px;
+    right: 30px;
+}
+
+.pro_left_banner_one .pro_left_ban_txt h3 {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--colorh);
+}
+
+.pro_left_banner_one .pro_left_ban_txt p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.pro_left_banner_one .pro_left_ban_txt a {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--hover2);
+
+    text-decoration: underline;
+}
+
+/* ++++++++++++++++ product right part start +++++++++++++++++++++ */
+.products_right .pro_right_txt h4 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--colorh);
+    margin: 10px 0;
+}
+
+.pro_right_details {
+    margin-bottom: 30px;
+}
+
+.products_right .pro_right_txt span {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--pera);
+    margin-bottom: 30px;
+}
+
+.products_right .pro_right_img {
+    position: relative;
+    border-radius: 25px;
+}
+
+.products_right .pro_right_img .pro_right_start {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+
+.products_right .pro_right_img .pro_right_start a i {
+    color: var(--hover2);
+}
+
+
+.products_right .pro_right_img .overly {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(40, 40, 40, 0.80);
+    border-radius: 25px;
+    top: 0;
+    transition: var(--transition);
+    transform: scale(0);
+}
+
+.products_right .pro_right_img:hover .overly {
+    transform: scale(1);
+    transform-origin: top;
+}
+
+.products_right .pro_right_img .overly .overly_txt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 170px;
+}
+
+.products_right .pro_right_img .overly .overly_txt a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 50px;
+    text-align: center;
+}
+
+.products_right .pro_right_img .overly .overly_txt a i {
+    color: var(--hover2);
+}
+
+/* ++++++++++++++++ product right part end +++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++
+             products catagory css end
+++++++++++++++++++++++++++++++++++++++*/
+/* +++++++++++++++++++++++++++++++++++
+             flash deal css star
+++++++++++++++++++++++++++++++++++++++*/
+#flash_deal {
+    padding: 130px 0;
+}
+
+#flash_deal .flash_deal_txt h2 {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--colorh);
+}
+
+#flash_deal .flash_deal_txt h4 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--colorh);
+    margin-top: 15px;
+}
+
+#flash_deal .flash_deal_txt p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    line-height: 28px;
+    padding-right: 200px;
+    margin: 30px 0;
+}
+
+#flash_deal .flash_deal_txt a {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding: 14px 51px;
+    border-radius: 10px;
+    background: var(--hover2);
+}
+
+/* ++++++++++++countdown start++++++++++++++ */
+#countdown {
+    display: flex;
+    text-align: center;
+    width: 500px;
+    margin-top: 30px;
+}
+
+#countdown .time {
+
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--colorh);
+}
+
+#countdown .label {
+    display: block;
+    font-family: var(--ff);
+    font-weight: 500;
+    font-size: 28px;
+    color: var(--colorh);
+    text-transform: capitalize;
+}
+
+/* ++++++++++++countdown end++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++
+             flash deal css end
+++++++++++++++++++++++++++++++++++++++*/
+
+/* +++++++++++++++++++++++++++++++++++
+             top rated css star
+++++++++++++++++++++++++++++++++++++++*/
+#top_rated {
+    position: relative;
+    padding: 100px 0;
+}
+
+#top_rated .top_rated_banner {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    padding: 0;
+    width: 600px;
+
+}
+
+.top_rated_button .inner_button button {
+    background: none;
+    border: none;
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--colorh);
+    position: relative;
+}
+
+.top_rated_button .inner_button button::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -15px;
+    width: 100%;
+    height: 3px;
+    background: var(--hover2);
+    transition: var(--transition);
+    transform: scale(0);
+}
+
+.top_rated_button .inner_button button:hover::after {
+    transform: scale(1);
+
+}
+
+/* ++++++++++++++++ product right part start +++++++++++++++++++++ */
+#top_rated .pro_right_details {
+    margin-top: 60px;
+}
+
+.pro_right_details .pro_right_txt h4 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--colorh);
+    margin: 10px 0;
+}
+
+.pro_right_details {
+    margin-bottom: 30px;
+}
+
+.pro_right_details .pro_right_txt span {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--pera);
+    margin-bottom: 30px;
+}
+
+.pro_right_details .pro_right_img {
+    position: relative;
+    border-radius: 25px;
+}
+
+.pro_right_details .pro_right_img .pro_right_start {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+
+.pro_right_details .pro_right_img .pro_right_start a i {
+    color: var(--hover2);
+}
+
+
+.pro_right_details .pro_right_img .overly {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(40, 40, 40, 0.80);
+    border-radius: 25px;
+    top: 0;
+    transition: var(--transition);
+    transform: scale(0);
+}
+
+.pro_right_details .pro_right_img:hover .overly {
+    transform: scale(1);
+    transform-origin: top;
+}
+
+.pro_right_details .pro_right_img .overly .overly_txt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+}
+
+.pro_right_details .pro_right_img .overly .overly_txt a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.pro_right_details .pro_right_img .overly .overly_txt a i {
+    color: var(--hover2);
+}
+
+/* ++++++++++++++++ product right part end +++++++++++++++++++++ */
+
+/* +++++++++++++++++++++++++++++++++++
+             top rated css end
+++++++++++++++++++++++++++++++++++++++*/
+
+/* +++++++++++++++++++++++++++++++++++
+             letest banner css star
+++++++++++++++++++++++++++++++++++++++*/
+#latest_iteams {
+    position: relative;
+    padding: 100px 0;
+}
+
+#latest_iteams .latest_iteams_banner {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    padding: 0;
+    width: 600px;
+
+}
+
+.latest_iteams_button .letest_button button {
+    background: none;
+    border: none;
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--colorh);
+    position: relative;
+}
+
+.latest_iteams_button .letest_button button::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -15px;
+    width: 100%;
+    height: 3px;
+    background: var(--hover2);
+    transition: var(--transition);
+    transform: scale(0);
+}
+
+.latest_iteams_button .letest_button button:hover::after {
+    transform: scale(1);
+
+}
+
+/* ++++++++++++++++ product right part start +++++++++++++++++++++ */
+#latest_iteams .pro_right_details {
+    margin-top: 60px;
+}
+
+.pro_right_details .pro_right_txt h4 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--colorh);
+    margin: 10px 0;
+}
+
+.pro_right_details {
+    margin-bottom: 30px;
+}
+
+.pro_right_details .pro_right_txt span {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--pera);
+    margin-bottom: 30px;
+}
+
+.pro_right_details .pro_right_img {
+    position: relative;
+    border-radius: 25px;
+}
+
+.pro_right_details .pro_right_img .pro_right_start {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+
+.pro_right_details .pro_right_img .pro_right_start a i {
+    color: var(--hover2);
+}
+
+
+.pro_right_details .pro_right_img .overly {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(40, 40, 40, 0.80);
+    border-radius: 25px;
+    top: 0;
+    transition: var(--transition);
+    transform: scale(0);
+}
+
+.pro_right_details .pro_right_img:hover .overly {
+    transform: scale(1);
+    transform-origin: top;
+}
+
+.pro_right_details .pro_right_img .overly .overly_txt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+}
+
+.pro_right_details .pro_right_img .overly .overly_txt a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.pro_right_details .pro_right_img .overly .overly_txt a i {
+    color: var(--hover2);
+}
+
+/* ++++++++++++++++ product right part end +++++++++++++++++++++ */
+
+/* +++++++++++++++++++++++++++++++++++
+             letest banner css end
+++++++++++++++++++++++++++++++++++++++*/
+/* +++++++++++++++++++++++++++++++++++
+             testmonial css star
+++++++++++++++++++++++++++++++++++++++*/
+#transmonial {
+    padding: 100px 0;
+    background: #F8F8F8;
+}
+
+#transmonial .trans_txt {
+    padding-left: 80px;
+    position: relative;
+}
+
+#transmonial .trans_txt h3 {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--colorh);
+    margin-bottom: 30px;
+}
+
+#transmonial .trans_txt .test_ratio a i {
+    color: var(--hover2);
+    margin: 40px 0;
+}
+
+#transmonial .trans_txt p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+
+}
+
+.test_sub {
+    margin-top: 30px;
+}
+
+.test_info_txt h4 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--colorh);
+}
+
+.test_info_txt p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+}
+
+.prevv {
+    position: absolute;
+    left: 80px;
+    bottom: 30px;
+    font-size: 30px;
+    transition: var(--transition);
+    z-index: 99;
+}
+
+.nextt {
+    position: absolute;
+    left: 120px;
+    bottom: 30px;
+    font-size: 30px;
+    transition: var(--transition);
+    z-index: 99;
+}
+
+.prevv:hover {
+    color: var(--hover2);
+
+}
+
+.nextt:hover {
+    color: var(--hover2);
+}
+
+/* +++++++++++++++++++++++++++++++++++
+             testmonial css end
+++++++++++++++++++++++++++++++++++++++*/
+/* +++++++++++++++++++++++++++++++++++
+             fruits css star
+++++++++++++++++++++++++++++++++++++++*/
+#fruits {
+    padding: 100px 0;
+}
+
+.fruits_img {
+    margin-bottom: 20px;
+}
+
+.fruit_left {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.fruit_left h4 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--colorh);
+    padding: 8px;
+}
+
+.fruits_right h4 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--colorh);
+}
+
+.fruits_right p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    line-height: 28px;
+    margin: 6px 0;
+}
+
+.fruits_right a {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--hover2);
+}
+
+/* +++++++++++++++++++++++++++++++++++
+             fruits css end
+++++++++++++++++++++++++++++++++++++++*/
+/* +++++++++++++++++++++++++++++++++++
+             footer css star
+++++++++++++++++++++++++++++++++++++++*/
+
+#footer {
+    padding: 100px 0;
+    background: #f8f8f8;
+}
+
+.foot_logo ul {
+    margin-top: 30px;
+}
+
+.foot_logo ul li {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+}
+
+#footer .foot_middle h3 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--colorh);
+}
+
+#footer .foot_middle .foo_midle_txt {
+
+    margin-top: 30px;
+}
+
+#footer .foot_middle .foo_midle_txt li {
+    margin-bottom: 10px;
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+}
+
+.foot_btn {
+    position: relative;
+}
+
+.foot_btn input {
+    outline: none;
+    border: 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+}
+
+.foot_btn button {
+    outline: none;
+    border: 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    background: var(--hover2);
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+
+}
+
+/* +++++++++++++++++++++++++++++++++++
+             footer css end
+++++++++++++++++++++++++++++++++++++++*/
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                           catagory page css start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* ++++++++++++++++++++
+      zoom part css start
++++++++++++++++++++++++++++*/
+#zoom {
+    padding-bottom: 80px;
+}
+
+#zoom .zoom_txt h2 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--colorh);
+    text-transform: capitalize;
+}
+
+.zoom_txt_txt {
+    margin-top: 8px;
+}
+
+.zoom_txt_txt li a {
+    color: var(--hover2);
+}
+
+.zoom_txt_txt li {
+    margin-right: 10px;
+}
+
+.zoom_txt_txt span {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+}
+
+.zoom_txt_txt strong {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--pera);
+}
+
+#zoom .zoom_txt h3 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--hover2);
+    margin-top: 10px;
+}
+
+#zoom .zoom_txt p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.zoom_right_btn ul li .ffff {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid var(--colorp);
+    background: transparent;
+    border-radius: 10px;
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--colorh);
+    margin-top: 20px;
+}
+
+.zoom_right_btn ul li .wcbtn {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid var(--colorp);
+    background: transparent;
+    border-radius: 10px;
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--pera);
+    margin-top: 20px;
+}
+
+.zoom_right_btn ul li .ffff ul {
+    justify-content: center;
+}
+
+.zoom_right_btn ul li .ffff ul li {
+    margin: 0 10px;
+}
+
+.zoom_right_btn ul li .fffcard {
+    margin-left: 20px;
+    background: var(--hover2);
+    border: 1px solid var(--hover2) !important;
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+
+.zoom_right_btn ul li .wclast {
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid var(--pera) !important;
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--colorp);
+}
+
+.zoom_right_btn ul li .subb {
+    width: 420px;
+    padding: 10px;
+    border: 1px solid var(--colorp);
+    background: transparent;
+    border-radius: 10px;
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background: #477018;
+    margin-top: 20px;
+}
+
+.zoom_txt .zoom_left_social {
+    border-bottom: 1px solid #a2a2a2;
+    padding-bottom: 50px;
+}
+
+.zoom_txt .zoom_left_social h5 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--colorh);
+    margin-top: 10px;
+    position: relative;
+}
+
+.zoom_txt .zoom_left_social h5 span {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+}
+
+.zoom_txt .zoom_left_social h5 ul {
+    position: absolute;
+    right: 170px;
+    top: -10px;
+
+}
+
+.zoom_txt .zoom_left_social h5 ul li {
+    margin-left: 10px;
+}
+
+.zoom_txt .zoom_left_social h5 ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+.zoom_txt .zoom_left_social h5 ul li .fb {
+    background: #4267B2 !important;
+}
+
+.zoom_txt .zoom_left_social h5 ul li .tw {
+    background: #1DA1F2 !important;
+}
+
+.zoom_txt .zoom_left_social h5 ul li .pn {
+    background: #c8232c !important;
+}
+
+.zoom_txt .zoom_left_social h5 ul li .bb {
+    background: #F77E56 !important;
+}
+
+.zoom_txt .zoom_left_social .z_social {
+    margin-top: 30px !important;
+}
+
+.sold_by h4 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--colorh);
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.sold_by ul {
+    margin-top: 20px;
+}
+
+.sold_by ul li {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    margin-top: 10px;
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.zoom_txt .sold_by {
+    border-bottom: 1px solid #a2a2a2;
+    padding-bottom: 20px;
+}
+
+/* ++++++++++++++++++++++++
+      zoom part css end
++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++
+      description part css start
++++++++++++++++++++++++++++*/
+#description {
+    padding-bottom: 80px;
+}
+
+#description .des_txt {
+    border-bottom: 1px solid #a2a2a2;
+    padding-bottom: 10px;
+}
+
+#description .des_txt ul li {
+
+    position: relative;
+
+}
+
+#description .des_txt ul li::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -11px;
+    width: 100%;
+    height: 2px;
+    background: var(--hover2);
+    transform: scale(0);
+    transition: all linear 0.3s;
+}
+
+#description .des_txt ul li:hover::after {
+    transform: scale(1);
+}
+
+#description .des_txt ul li a {
+    font-family: var(--ff);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--pera);
+    margin: 0 30px;
+    transition: all linear 0.3s;
+
+}
+
+#description .des_txt ul li:hover a {
+    color: var(--hover2);
+}
+
+.des_details {
+    margin-top: 20px;
+}
+
+.des_details p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    line-height: 30px;
+
+}
+
+.des_details ul {
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.des_details ul li {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    list-style: disc;
+}
+
+/* ++++++++++++++++++++++++
+      description part css end
++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++
+      related product part css start
++++++++++++++++++++++++++++*/
+#related_pro {
+    padding-bottom: 80px;
+}
+
+.rela_pro_left h4 {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--colorh);
+}
+
+.rela_pro_right {
+    text-align: right;
+}
+
+.rela_pro_right span {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--hover2);
+
+}
+
+.rela_pro_part {
+    margin-top: 30px;
+}
+
+.rela_pro_txt a i {
+    color: var(--hover2);
+    margin-top: 30px;
+}
+
+.rela_pro_txt p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5px;
+}
+
+.rela_pro_txt h4 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+.rela_pro_img {
+    position: relative;
+}
+
+.rela_pro_img .overly {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+    width: 242px;
+    display: none;
+}
+
+.rela_pro_img .overly .overly_txt a {
+    width: 47px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    color: var(--pera);
+    font-size: 20px;
+    margin: 0 5px;
+    transition: all linear 0.3s;
+}
+
+.rela_pro_img .overly .overly_txt a:hover {
+    background: var(--hover2);
+    color: #fff;
+}
+
+.rela_pro_img:hover .overly {
+    display: block;
+}
+
+/* ++++++++++++++++++++++++
+      related product part css end
++++++++++++++++++++++++++++*/
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                           catagory page css end
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                           about page css start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#about {
+    padding: 115px 0;
+}
+
+#about .about_txt h3 {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--colorh);
+}
+
+#about .about_txt p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--colorh);
+}
+
+/* ================ good people css start===================== */
+#good_people {
+    padding: 100px 0;
+}
+
+.good_people_txt strong {
+    font-family: var(--ff);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--pera);
+}
+
+.good_people_txt h2 {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--colorh);
+}
+
+.good_people_txt p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.good_people_txt p span {
+    display: block;
+}
+
+.about_good_person {
+    margin-top: 30px;
+}
+
+.about_person_txt h5 {
+    font-family: var(--ff);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--colorh);
+
+}
+
+.about_person_txt span {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+}
+
+/* ================ good people css end===================== */
+/* ================ about services css start ===================== */
+#about_services {
+    padding-bottom: 100px;
+}
+
+.about_serv_txt h4 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.about_serv_txt p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+/* ================ about services css end ===================== */
+/* ================ make us css start ===================== */
+#make_us {
+    padding-bottom: 100px;
+
+}
+
+.make_us_txt span {
+    font-family: var(--ff);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--pera);
+}
+
+.make_us_txt p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    margin-top: 10px;
+}
+
+.make_us_txt h3 {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--colorh);
+    padding-right: 150px;
+}
+
+.make_us_bottom {
+    margin-top: 30px;
+}
+
+.make_us_left ul li {
+    width: 100%;
+    transition: var(--transition);
+}
+
+.make_us_left ul li a {
+    font-family: var(--ff);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--pera);
+    padding: 10px 0;
+    transition: var(--transition);
+}
+
+.make_us_left ul li:hover {
+    background: var(--hover2);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.make_us_left ul li:hover a {
+    color: #fff;
+}
+
+.make_us_right strong {
+    font-family: var(--ff);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--pera);
+}
+
+.make_us_right h4 {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--colorh);
+    margin-top: 5px;
+}
+
+.make_us_right p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.make_us_right ul {
+    margin-top: 15px;
+}
+
+.make_us_right ul li {
+    margin-left: 20px;
+    list-style: disc;
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    line-height: 30px;
+}
+
+/* ================ make us css end ===================== */
+/* ================ about testmonial css start ===================== */
+#about_testmonial {
+    padding-bottom: 100px;
+}
+
+.test_left_part {
+    border: 1px solid #c9c9c9;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+
+.test_left_part p {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.about_test_top,
+.about_test_bottom {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    line-height: 28px;
+    border: 1px solid #c9c9c9;
+    padding: 26px 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.texxt_top {
+    margin-top: 5px !important;
+}
+
+.about_test_last {
+    margin-top: 24px;
+}
+
+.about_text_right_img {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* ================ about testmonial css end ===================== */
+/* ================ latest blog css start ===================== */
+#latest_blog {
+    padding-bottom: 100px;
+}
+
+.latest_blog_txt {
+    padding: 30px 30px;
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.latest_blog_txt ul li a {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--pera);
+}
+
+.latest_blog_txt ul li {
+    margin-right: 20px;
+}
+
+.latest_blog_txt ul li a i {
+    margin-right: 10px;
+}
+
+.latest_blog_txt h3 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+    margin-top: 10px;
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom: 30px;
+}
+
+.latest_bottom {
+    margin-top: 30px;
+}
+
+.latest_bottom ul {
+    justify-content: space-between;
+}
+
+.latest_bottom ul li {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--pera);
+    padding-right: 0;
+}
+
+.latest_bottom ul .read_more_blog {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--hover2);
+    text-align: right;
+}
+
+/* ================ latest blog css end ===================== */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+about page css end
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+catagory page css start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* ================ shop top ber css start ===================== */
+#shop_page_topber {
+    padding-top: 100px;
+}
+
+#shop_page_topber .cata_one {
+
+    position: relative;
+}
+
+#shop_page_topber .cata_one input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+}
+
+#shop_page_topber .cata_one a i {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: #c9c9c9;
+
+}
+
+.cata_tow p {
+    font-family: var(--ff);
+    font-weight: 400px;
+    font-size: 16px;
+    color: var(--pera);
+    margin-top: 10px;
+}
+
+.cata_three ul {
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.cata_three ul li a {
+    color: #c9c9c9;
+    margin-left: 10px;
+}
+
+/* ================ shop top ber css end ===================== */
+/* ================ shop catagory css start ===================== */
+#shop_catagory {
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+.shop_catagory_left_one {
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.shop_catagory_left_one h3 {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--colorh);
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.shop_catagory_left_one ul {
+    margin-top: 10px;
+}
+
+.shop_catagory_left_one ul li {
+    list-style: disc;
+    margin-left: 20px;
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    line-height: 35px;
+}
+
+.shop_catagory_left_price {
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.shop_catagory_left_price h3 {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--colorh);
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.shop_catagory_left_price ul {
+    margin-top: 10px;
+}
+
+.shop_catagory_left_price ul li {
+
+    margin-left: 20px;
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+    line-height: 35px;
+}
+
+.shop_catagory_left_price ul li ul span {
+    width: 17px !important;
+    height: 17px !important;
+    border: 1px solid #c9c9c9;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.shop_catagory_left_price ul li ul li {
+    list-style: none !important;
+    margin-left: 5px !important;
+}
+
+.shop_catagory_left_price ul li ul li i {
+    color: var(--hover2);
+}
+
+.shop_catagory_left_price ul li ul .star_off i {
+    color: #c9c9c9;
+}
+
+.shop_catagory_left_best_salles {
+    margin-bottom: 30px;
+}
+
+.shop_catagory_left_best_salles h3 {
+    margin-bottom: 30px;
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--colorh);
+}
+
+.shop_catagory_left_best_salles .sclbest_sale_txt {
+    margin-top: 10px;
+}
+
+.shop_catagory_left_best_salles .scbest_sales {
+    margin-top: 10px;
+}
+
+.shop_catagory_left_best_salles .sclbest_sale_txt h4 {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--colorh);
+}
+
+.shop_catagory_left_best_salles .sclbest_sale_txt p {
+    font-family: var(--ff);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--pera);
+}
+
+.shop_catagory_left_best_salles .sclbest_sale_txt ul li i {
+    color: var(--hover2);
+}
+
+.shop_catagory_left_best_salles .tges li {
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    font-family: var(--ff);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--pera);
+    margin: 5px;
+    padding: 10px;
+}
+
+.shop_catagory_right h4 {
+    margin-bottom: 24px;
+}
+
+.shop_catagory_right .pagination_ber ul {
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.shop_catagory_right .pagination_ber ul li {
+    margin-left: 10px;
+}
+
+.shop_catagory_right .pagination_ber ul li a {
+    width: 40px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background: #e9e9e9;
+    border-radius: 5px;
+    font-family: var(--ff);
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    transition: var(--transition);
+}
+
+.shop_catagory_right .pagination_ber ul li a:hover {
+    background: var(--hover1);
+    color: #fff;
+}
+/* ================ shop catagory css end ===================== */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+catagory page css end
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+search page css start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* ================ search css start ===================== */
+#search_page_topber{
+    padding-top: 100px;
+
+}
+#search_page_topber .search_top{
+    position: relative;
+}
+#search_page_topber .search_top h3{
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--colorh);
+
+}
+#search_page_topber .search_top span{
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pera);
+   position: absolute;
+   right: 0;
+
+}
+.s_ber_bottom{
+    margin-top: 50px;
+}
+.s_ber_bottom .search_one{
+font-family: var(--ff);
+font-weight: 400;
+font-size: 16px;
+color: var(--pera);
+margin-top: 10px;
+}
+.s_ber_bottom .search_tow{
+    position: relative;
+}
+.s_ber_bottom .search_tow input{
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+outline: none;
+border: 1px solid #c9c9c9;
+font-family: var(--ff);
+font-weight: 400;
+font-size: 16px;
+color: var(--pera);
+
+}
+.s_ber_bottom .search_tow i{
+    position: absolute;
+    right: 20px;
+    color: #c9c9c9;
+   top: 15px;
+}
+.s_ber_bottom .search_one ul li{
+    margin: 0px 5px;
+}
+.s_ber_bottom .search_one ul li a {
+    color: #000;
+}
+/* ================ search css end ===================== */
+/* ================ search css start ===================== */
+/* ================ search css end ===================== */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                           search page css end
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
